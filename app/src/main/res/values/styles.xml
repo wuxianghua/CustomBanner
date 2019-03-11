@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="BannerIndicator">
+        <attr name="gap" format="dimension"/>
+        <attr name="slider_width" format="dimension"/>
+        <attr name="slider_height" format="dimension"/>
+
+        <attr name="slider_align">
+            <enum name="Left" value="1"/>
+            <enum name="Center" value="0" />
+            <enum name="Right" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
